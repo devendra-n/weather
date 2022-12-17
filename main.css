@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  min-height: 100vh;
+  background: linear-gradient(0deg,#444852,#b6e0b9);
+  animation: anim 1s  infinite ease;
+}
+@keyframes anim{
+  0%{
+  background: linear-gradient(0deg,#444852,#b6e0b9);
+  }
+  10%{
+ background: linear-gradient(36deg,#444852,#b6e0b9);   
+  }
+  20%{
+   background: linear-gradient(72deg,#444852,#b6e0b9); 
+  }
+  30%{
+   background: linear-gradient(108deg,#444852,#b6e0b9); 
+  }
+  40%{
+   background: linear-gradient(144deg,#444852,#b6e0b9); 
+  }
+  50%{
+  background: linear-gradient(180deg,#444852,#b6e0b9);  
+  }
+  60%{
+   background: linear-gradient(216deg,#444852,#b6e0b9); 
+  }
+  70%{
+   background: linear-gradient(252deg,#444852,#b6e0b9); 
+  }
+  80%{
+  background: linear-gradient(288deg,#444852,#b6e0b9);  
+  }
+  90%{
+   background: linear-gradient(324deg,#444852,#b6e0b9); 
+  }
+  100%{
+   background: linear-gradient(360deg,#444852,#b6e0b9); 
+  }
+}
